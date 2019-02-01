@@ -14,9 +14,10 @@ registry.baseUri     = http://localhost:8080/registry
 @base <http://localhost:8080/registry/> .
 
 5. Ensure that:
-     /var/log/ldregistry
-     /var/opt/ldregistry
-     /var/opt/ldregistry/logstore [1]
+     * /var/log/ldregistry
+     * /var/opt/ldregistry
+     * /var/opt/ldregistry/logstore 
+     
 exist, are empty and are accessible to the tomcat user
 
 6. Copy the new snapshot war to tomcat webapps as registry.war (or whatever you want to call it)
